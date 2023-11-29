@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.home{
+    width: 100%;
+    height: 130rem;
+}
+.header{
+    width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   
+}
+.header div{
+    width: 33%;
+    height: 50rem;
+}
+.parent1 h1{
+    font-size: 6rem;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.parent3 p{
+    margin-top: 150px;
+    margin-left: -50px;
+}
+.parent2{
+    background: url("../img/bckg.svg");
+}
+.parent3 button{
+  width: 100%;
+  background-color: #151515;
+  color: white;
+}
+
+
+.left1{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding-top: 4rem;
+    font-size: 1.5rem;
+}
+.up{
+    display: flex;
+    gap: 2rem;
+    padding-left: 4rem;
+}
+.down{
+    display: flex;
+    gap: 4rem;
+    padding-left: 9rem;
+}
+
+.contur{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.contur2{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: #151515;
+    color: white;
+    height: 30%;
+}
+.contur2 h2{
+    font-size: 1.5rem;
+}
+
+
+
+.first-foot{
+    width: 100%;
+    height: 15.25rem;
+    background-color: #151515;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first-foot p{
+    width: 26.875rem;
+    height: 5.25rem;
+    color: var(--White, #FFF);
+    font-family: Outfit;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.75rem; /* 155.556% */
+}
+
+.first-foot .wth1{
+    width: 9.97325rem;
+    height: 3.625rem;
+}
+.first-foot .wth2{
+    width: 6.25rem;
+    height: 1.25rem;
+}
+
+
+.location{
+    width: 100%;
+    height: 35rem;
+}
+
+.locationbox{
+    width: 100%;
+    height: 20rem;
+    background-color: #151515; 
+    display: flex;  
+    gap: 5rem;
+}
+
+.locationbox .left{
+    padding-left: 10.31rem;
+    padding-top: 6.5rem;
+}
+.locationbox .right{
+    padding-top: 6.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.right h3{
+    color: #D5966C;
+}
+
+
+
+
+.map{
+    width: 100%;
+}
+
+
+
+.second-foot{
+    width: 100%;
+    height: 15.25rem;
+    background-color: #D5966C;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.second-foot p{
+    width: 26.875rem;
+    height: 5.25rem;
+    color: var(--White, #FFF);
+    font-family: Outfit;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.75rem; /* 155.556% */
+}
+
+@media (max-width: 576px) {
+    .home{
+        width:auto;
+        height: auto;
+    }
+    
+    .location{
+        width: 100%;   
+    }
+    
+    
+
+}
